@@ -30,6 +30,14 @@ body{
   .navbar .navbar-nav .nav-link:hover{
     color: red;
   }
+
+  /* COVID-INFO */
+  .covid-info {
+    margin-top: 60px;
+    padding: 20px;
+    color: red;
+    background-color: #eee;;
+  }
   
   /* Landing */
   .home-inner{
