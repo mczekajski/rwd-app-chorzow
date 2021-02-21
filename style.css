@@ -1,28 +1,11 @@
 /* General rules */
-
 body {
   /* własny font z google fonts */
   overflow-x: hidden;
-  background-color: rgb(233, 236, 239);
-}
-
-.blockquote, .jumbo-line {
-  width: 70%;
-  margin: 0 auto;
-}
-
-/* COVID-INFO */
-
-.covid-info {
-  margin-top: 60px;
-  padding: 20px;
-  color: red;
-  background-color: #eee;
-  ;
+  background-color: #8ecae6;
 }
 
 /* Navigation */
-
 .navbar {
   background-color: #219ebc;
   font-size: 0.9rem;
@@ -30,7 +13,7 @@ body {
   font-weight: bold;
 }
 
-.navbar-brand>img {
+.navbar-brand > img {
   height: 1.8rem;
 }
 
@@ -48,7 +31,6 @@ body {
 }
 
 /* Landing */
-
 .home-inner {
   background-image: url(img/computers.png);
   background-size: contain;
@@ -75,13 +57,11 @@ body {
 }
 
 /* course */
-
 #course {
   background-color: #ffb703;
 }
 
 /* Features */
-
 .jumbotron {
   color: #ffb703;
   padding-bottom: 0;
@@ -97,28 +77,29 @@ body {
 }
 
 /* Clients */
-
 .client {
   border-radius: 50%;
   width: 90%;
   min-width: 15vw;
 }
 
-.blockquote, .jumbo-line {
+.blockquote,
+.jumbo-line {
   width: 70%;
   margin: 0 auto;
 }
 
 /* Contact */
 
-footer, footer a {
+footer,
+footer a {
   color: #023047;
 }
 
-footer p, footer h3 {
+footer p,
+footer h3 {
   color: #023047;
 }
-
 footer a:hover {
   color: #ffb703;
 }
@@ -134,34 +115,6 @@ footer img {
   .client {
     width: 50%;
     max-width: 40vw;
-  }
-}
-
-@media all and (min-width: 768px) and (max-width: 991px) {
-  .client {
-    width: 70%;
-    margin: 0 auto;
-  }
-  /*register form*/
-  .form_register {
-    max-width: 50%;
-    margin: 0 auto;
-  }
-  .form_head {
-    text-align: center;
-    padding-bottom: 20px;
-  }
-}
-
-/* @media queries own rules */
-
-@media all and (max-width: 767px) {
-  .client {
-    width: 50%;
-    max-width: 40vw;
-  }
-  .form_register {
-    max-width: 70%;
   }
 }
 
