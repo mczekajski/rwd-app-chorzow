@@ -2,6 +2,15 @@
 body {
   /* własny font z google fonts */
   overflow-x: hidden;
+
+  /* COVID-INFO */
+  .covid-info {
+    margin-top: 60px;
+    padding: 20px;
+    color: red;
+    background-color: #eee;;
+  }
+
   background-color: #8ecae6;
 }
 
