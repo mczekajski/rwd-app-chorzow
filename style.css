@@ -121,5 +121,51 @@ footer img {
 @media all and (min-width: 768px) and (max-width: 991px) {
   .client {
     width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* Contact */
+  
+  footer, footer a{
+    color: blue;
+  }
+  
+  footer a:hover, footer p, footer h3{
+    color:green;
+  }
+  
+  footer img{
+    height: 3rem;
+    margin: 1rem 0;
+  }
+
+  /*register form*/
+  .form_register{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .form_head{
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  /* @media queries own rules */
+  
+  @media all and (max-width: 767px){
+    .client{
+      width: 50%;
+      max-width: 40vw;
+    }
+
+    .form_register{
+      max-width: 70%;
+    }
+  }
+  
+  @media all and (min-width: 768px) and (max-width: 991px){
+    .client{
+      width: 70%;
+    }
   }
 }
