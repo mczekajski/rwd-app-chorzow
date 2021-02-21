@@ -8,7 +8,7 @@ body{
   
   /* Navigation */
   .navbar{
-    background-color: black;
+    background-color: darkgray;
     font-size: 0.9rem;
     letter-spacing: 0.1rem;
     font-weight: bold;
