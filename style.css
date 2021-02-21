@@ -104,6 +104,17 @@ body{
     height: 3rem;
     margin: 1rem 0;
   }
+
+  /*register form*/
+  .form_register{
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .form_head{
+    text-align: center;
+    padding-bottom: 20px;
+  }
   
   /* @media queries own rules */
   
@@ -111,6 +122,10 @@ body{
     .client{
       width: 50%;
       max-width: 40vw;
+    }
+
+    .form_register{
+      max-width: 70%;
     }
   }
   
